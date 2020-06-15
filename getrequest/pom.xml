@@ -12,6 +12,34 @@
     <artifactId>getrequest</artifactId>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-http-tests -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-tests_2.12</artifactId>
+            <version>10.0.0-RC2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-scala -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-scala_2.12</artifactId>
+            <version>1.12.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest-wordspec -->
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest-wordspec_2.13</artifactId>
+            <version>3.3.0-SNAP2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-http-testkit -->
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-http-testkit_2.13</artifactId>
+            <version>10.2.0-M1</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
@@ -136,6 +164,34 @@
                     <execution>
                         <goals>
                             <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.scalatest</groupId>
+                <artifactId>scalatest-maven-plugin</artifactId>
+                <version>1.0</version>
+                <configuration>
+                    <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+                    <junitxml>.</junitxml>
+                    <filereports>WDF TestSuite.txt</filereports>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>test</id>
+                        <goals>
+                            <goal>test</goal>
                         </goals>
                     </execution>
                 </executions>

@@ -1,4 +1,5 @@
 package com.knoldus.controller
+import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.server.Directives.{complete, get, path, _}
 import akka.http.scaladsl.server.Route
 import com.knoldus.json.JsonSupport
@@ -12,7 +13,7 @@ trait GetRoute extends JsonSupport with Logging {
   lazy val getRoute: Route =
     get {
       path("Hello" / Segment / Segment) { (name: String, message: String) =>
-        complete(GreetingService.getDetails(name, message))
+        complete(StatusCodes.Accepted ,GreetingService.getDetails(name, message))
       }
 
     }
