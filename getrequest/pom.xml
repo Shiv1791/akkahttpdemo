@@ -11,23 +11,5 @@
 
     <artifactId>getrequest</artifactId>
 
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <encoding>UTF-8</encoding>
-        <scala.version>2.12.8</scala.version>
-        <scalaArtifactIDVersion>2.12</scalaArtifactIDVersion>
-        <scala.mvn>3.6.1</scala.mvn>
-        <scala.test>3.0.8</scala.test>
-        <scalatest.version>3.0.7</scalatest.version>
-        <scoverage.plugin.version>1.4.0</scoverage.plugin.version>
-        <akka-http.version>10.1.12</akka-http.version>
-        <akka.version>2.5.26</akka.version>
-        <mvn.shade>3.1.1</mvn.shade>
-        <mvn.surefire>2.21.0</mvn.surefire>
-        <mvn.compiler>3.7.0</mvn.compiler>
-        <mvn.scalatest>2.0.0</mvn.scalatest>
-        <mvn.scoverage>1.3.0</mvn.scoverage>
-    </properties>
 
 </project>

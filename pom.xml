@@ -135,7 +135,7 @@
                     <scalaVersion>${scala.version}</scalaVersion>
                     <launchers>
                         <launcher>
-                            <mainClass>com.knoldus.app.GetApi</mainClass>
+                            <mainClass>com.knoldus.main.*</mainClass>
                         </launcher>
                     </launchers>
                 </configuration>
