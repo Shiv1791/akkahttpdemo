@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="knoldus" name="com.knoldus.controller.PostRouteSpec" tests="1" time="0.312" timestamp="2020-06-16T15:07:24">
+errors="0" failures="0" hostname="knoldus" name="com.knoldus.controller.PostRouteSpec" tests="1" time="0.308" timestamp="2020-06-16T15:30:01">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
     </property>
@@ -82,7 +82,7 @@ errors="0" failures="0" hostname="knoldus" name="com.knoldus.controller.PostRout
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase 
-  name="Post routes should return message in case of validRequest" classname="com.knoldus.controller.PostRouteSpec" time="0.258">
+  name="Post routes should return message in case of validRequest" classname="com.knoldus.controller.PostRouteSpec" time="0.261">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

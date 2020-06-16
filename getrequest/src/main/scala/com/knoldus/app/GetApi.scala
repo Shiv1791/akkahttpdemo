@@ -23,5 +23,4 @@ object GetApi extends GetRoute with App  {
   bindingFuture
     .flatMap(_.unbind())
     .onComplete(_ => system.terminate())
-
 }

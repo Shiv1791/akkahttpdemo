@@ -26,5 +26,4 @@ object PostApi extends PostRoute with App  {
   bindingFuture
     .flatMap(_.unbind())
     .onComplete(_ => system.terminate())
-
 }

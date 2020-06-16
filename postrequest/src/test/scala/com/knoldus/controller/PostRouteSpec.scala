@@ -16,10 +16,9 @@ class PostRouteSpec extends PostRoute with WordSpecLike with JsonSupport
     val entity = Marshal(PostResponse(List(1, 2), "+")).to[MessageEntity].futureValue
 
     "return message in case of validRequest " in {
-      Post("http://localhost:8081/postResponse").withEntity(entity) ~> postRoute ~> check {
+      Post("/postResponse").withEntity(entity) ~> postRoute ~> check {
         responseAs[String] shouldEqual "3"
       }
     }
   }
-
 }

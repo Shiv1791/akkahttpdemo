@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="knoldus" name="org.scalatest.tools.DiscoverySuite" tests="0" time="0.384" timestamp="2020-06-16T15:29:35">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
+    </property>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property 
+    name="sun.boot.library.path" value="/home/knoldus/application/jdk-11.0.7_linux-x64_bin/jdk-11.0.7/lib">
+</property>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/home/knoldus/IdeaProjects/akkahttpdemo/getrequest">
+</property>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property 
+    name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment">
+</property>
+    <property 
+    name="basedir" value="/home/knoldus/IdeaProjects/akkahttpdemo/getrequest">
+</property>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value=" "/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property 
+    name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib">
+</property>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="5.3.0-59-generic"/>
+    <property name="user.home" value="/home/knoldus"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="knoldus"/>
+    <property 
+    name="java.class.path" value="/home/knoldus/IdeaProjects/akkahttpdemo/getrequest/target/test-classes:/home/knoldus/IdeaProjects/akkahttpdemo/getrequest/target/scoverage-classes:/home/knoldus/.m2/repository/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar:/home/knoldus/.m2/repository/org/scalatest/scalatest_2.12/3.0.7/scalatest_2.12-3.0.7.jar:/home/knoldus/.m2/repository/org/scalactic/scalactic_2.12/3.0.7/scalactic_2.12-3.0.7.jar:/home/knoldus/.m2/repository/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar:/home/knoldus/.m2/repository/org/scala-lang/modules/scala-xml_2.12/1.1.0/scala-xml_2.12-1.1.0.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-actor_2.12/2.5.26/akka-actor_2.12-2.5.26.jar:/home/knoldus/.m2/repository/com/typesafe/config/1.3.3/config-1.3.3.jar:/home/knoldus/.m2/repository/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-http_2.12/10.1.12/akka-http_2.12-10.1.12.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-http-core_2.12/10.1.12/akka-http-core_2.12-10.1.12.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-parsing_2.12/10.1.12/akka-parsing_2.12-10.1.12.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-stream_2.12/2.5.26/akka-stream_2.12-2.5.26.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-protobuf_2.12/2.5.26/akka-protobuf_2.12-2.5.26.jar:/home/knoldus/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/home/knoldus/.m2/repository/com/typesafe/ssl-config-core_2.12/0.3.8/ssl-config-core_2.12-0.3.8.jar:/home/knoldus/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar:/home/knoldus/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar:/home/knoldus/.m2/repository/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-stream-testkit_2.12/2.5.26/akka-stream-testkit_2.12-2.5.26.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.5.26/akka-testkit_2.12-2.5.26.jar:/home/knoldus/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-http-testkit_2.12/10.1.12/akka-http-testkit_2.12-10.1.12.jar:/home/knoldus/.m2/repository/com/typesafe/akka/akka-http-spray-json_2.12/10.1.12/akka-http-spray-json_2.12-10.1.12.jar:/home/knoldus/.m2/repository/org/scoverage/scalac-scoverage-runtime_2.12/1.4.0/scalac-scoverage-runtime_2.12-1.4.0.jar">
+</property>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /home/knoldus/IdeaProjects/akkahttpdemo/getrequest/target/scoverage-classes /home/knoldus/IdeaProjects/akkahttpdemo/getrequest/target/test-classes -o -u /home/knoldus/IdeaProjects/akkahttpdemo/getrequest/target/surefire-reports/.">
+</property>
+    <property 
+    name="java.home" value="/home/knoldus/application/jdk-11.0.7_linux-x64_bin/jdk-11.0.7">
+</property>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property 
+    name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/">
+</property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

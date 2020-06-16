@@ -9,12 +9,10 @@ import com.knoldus.service.GreetingService
 import scala.language.postfixOps
 
 trait GetRoute extends JsonSupport  {
-
   lazy val getRoute: Route =
     get {
       path("hello" / Segment / Segment) { (name: String, message: String) =>
         complete(GreetingService.getDetails(name, message))
       }
-
     }
 }
