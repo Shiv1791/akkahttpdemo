@@ -13,7 +13,7 @@ import scala.language.postfixOps
 trait PostRoute extends JsonSupport {
   lazy val postRoute: Route =
     post {
-      path("postResponse") {
+      path("calculator") {
         entity(as[PostResponse]) {
           postResponse => {
             complete(CalculatorService.getDetails(postResponse))

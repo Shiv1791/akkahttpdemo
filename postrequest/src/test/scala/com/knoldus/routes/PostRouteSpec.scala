@@ -18,13 +18,13 @@ class PostRouteSpec extends PostRoute with WordSpecLike with JsonSupport
     val invalidEntity =
       Marshal(PostResponse(List(1, 2), "+-")).to[MessageEntity].futureValue
     "return message in case of validRequest " in {
-      Post("/postResponse").withEntity(entity) ~> postRoute ~> check {
+      Post("/calculator").withEntity(entity) ~> postRoute ~> check {
         responseAs[String] shouldEqual "3"
       }
     }
 
     "return default message in case of invalidRequest " in {
-      Post("/postResponse").withEntity(invalidEntity) ~> postRoute ~> check {
+      Post("/calculator").withEntity(invalidEntity) ~> postRoute ~> check {
         responseAs[String] shouldEqual "Does not support"
       }
     }
