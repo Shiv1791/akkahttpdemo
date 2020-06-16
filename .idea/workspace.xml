@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86426aed-32a1-4982-9382-f570a2408005" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/postrequest/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/src/main/scala/com/knoldus/main/GetApi.scala" beforeDir="false" afterPath="$PROJECT_DIR$/getrequest/src/main/scala/com/knoldus/main/GetApi.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes.578352445.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/json/JsonSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/main/GetApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/main/GetApi$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/main/GetApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/model/Response$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/model/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/routes/GetRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/service/GreetingService$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/service/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/util/Constants$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/classes/com/knoldus/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/getrequest-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/getrequest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes.578352445.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/json/JsonSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/main/GetApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/main/GetApi$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/main/GetApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/model/Response$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/model/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/routes/GetRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/service/GreetingService$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/service/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/util/Constants$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-classes/com/knoldus/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-data/scoverage.coverage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-data/scoverage.measurements.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/scoverage-data/source.roots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/surefire-reports/TEST-com.knoldus.routes.GetRouteSpec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-8d1fa114-483c-4887-95be-a4085d889684.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-a3c619fa-1ef6-467d-9663-e7f66230a27b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/test-classes.1841163606.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getrequest/target/test-classes/com/knoldus/routes/GetRouteSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/src/main/scala/com/knoldus/main/PostApi.scala" beforeDir="false" afterPath="$PROJECT_DIR$/postrequest/src/main/scala/com/knoldus/main/PostApi.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes.240584623.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/json/JsonSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/main/PostApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/main/PostApi$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/main/PostApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/model/PostResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/model/PostResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/routes/PostRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/service/CalculatorService$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/service/CalculatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/util/Constants$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/classes/com/knoldus/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/postrequest-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/postrequest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes.240584623.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/json/JsonSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/main/PostApi$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/main/PostApi$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/main/PostApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/model/PostResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/model/PostResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/routes/PostRoute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/service/CalculatorService$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/service/CalculatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/util/Constants$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-classes/com/knoldus/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-data/scoverage.coverage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-data/scoverage.measurements.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/scoverage-data/source.roots" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/surefire-reports/TEST-com.knoldus.routes.PostRouteSpec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-600c5023-1a70-4032-a2c1-5429f5ac9e81.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-fb89dd3f-7fe2-4bb0-a820-c0191ef0ffea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/test-classes.1503395784.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postrequest/target/test-classes/com/knoldus/routes/PostRouteSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/akkahttpdemo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-6c8f2766-c275-41e7-9ed7-61f40b3ff0a6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.scalatest.tools.DiscoverySuite-94995c62-6d09-4519-b3d1-72b558e53727.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dLNWvn6A3blDCan4ZwTpMbz14s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/getrequest/src/main/scala/com/knoldus/util" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/postrequest/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.knoldus.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/getrequest/src/main/scala/com/knoldus/util" />
+      <recent name="$PROJECT_DIR$/getrequest/src/main" />
+      <recent name="$PROJECT_DIR$/postrequest/src/main/scala" />
+      <recent name="$PROJECT_DIR$/postrequest/src/main/scala/com/knoldus/app" />
+      <recent name="$PROJECT_DIR$/getrequest/src/main/scala/com/knoldus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GetApi">
+    <configuration name="GetApi" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.knoldus.main.GetApi" />
+      <module name="getrequest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knoldus.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostApi" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.knoldus.main.PostApi" />
+      <module name="postrequest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knoldus.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRouteSpec.Answer routes should return Error message in case of invalidRequest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="getrequest" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="com.knoldus.controller.GetRouteSpec" />
+      <option name="testName" value="Answer routes should return Error message in case of invalidRequest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/getrequest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRouteSpec.Get routes should return Error message in case of invalidRequest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="getrequest" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="com.knoldus.controller.GetRouteSpec" />
+      <option name="testName" value="Get routes should return Error message in case of invalidRequest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/getrequest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostRouteSpec.Answer routes should return Error message in case of invalidRequest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="postrequest" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Test name" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="com.knoldus.controller.PostRouteSpec" />
+      <option name="testName" value="Answer routes should return Error message in case of invalidRequest" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/postrequest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="shortenClasspath" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GetApi" />
+        <item itemvalue="Application.PostApi" />
+        <item itemvalue="ScalaTest.PostRouteSpec.Answer routes should return Error message in case of invalidRequest" />
+        <item itemvalue="ScalaTest.GetRouteSpec.Get routes should return Error message in case of invalidRequest" />
+        <item itemvalue="ScalaTest.GetRouteSpec.Answer routes should return Error message in case of invalidRequest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86426aed-32a1-4982-9382-f570a2408005" name="Default Changelist" comment="" />
+      <created>1592200448663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592200448663</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1592301458145">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="194" y="27" width="1024" height="741" key="#Project_Structure/57.27.1309.741@57.27.1309.741" timestamp="1592301458145" />
+    <state x="444" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592224083171">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="444" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/57.27.1309.741@57.27.1309.741" timestamp="1592224083171" />
+    <state x="519" y="90" width="368" height="613" key="#com.intellij.ide.util.MemberChooser" timestamp="1592209193280">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="519" y="90" width="368" height="613" key="#com.intellij.ide.util.MemberChooser/57.27.1309.741@57.27.1309.741" timestamp="1592209193280" />
+    <state x="200" y="321" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592208588717">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="200" y="321" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/57.27.1309.741@57.27.1309.741" timestamp="1592208588717" />
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592307307917">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="494" y="154" width="424" height="484" key="FileChooserDialogImpl/57.27.1309.741@57.27.1309.741" timestamp="1592307307917" />
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom" timestamp="1592307027411">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="175" key="GridCell.Tab.0.bottom/57.27.1309.741@57.27.1309.741" timestamp="1592307027411" />
+    <state width="1263" height="175" key="GridCell.Tab.0.center" timestamp="1592307027410">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="175" key="GridCell.Tab.0.center/57.27.1309.741@57.27.1309.741" timestamp="1592307027410" />
+    <state width="1263" height="175" key="GridCell.Tab.0.left" timestamp="1592307027410">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="175" key="GridCell.Tab.0.left/57.27.1309.741@57.27.1309.741" timestamp="1592307027410" />
+    <state width="1263" height="175" key="GridCell.Tab.0.right" timestamp="1592307027411">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state width="1263" height="175" key="GridCell.Tab.0.right/57.27.1309.741@57.27.1309.741" timestamp="1592307027411" />
+    <state x="200" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1592307310028">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="200" y="27" width="1024" height="741" key="SettingsEditor/57.27.1309.741@57.27.1309.741" timestamp="1592307310028" />
+    <state x="157" y="125" width="1109" height="543" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592307278692">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="157" y="125" width="1109" height="543" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/57.27.1309.741@57.27.1309.741" timestamp="1592307278692" />
+    <state x="157" y="125" width="1109" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592306040942">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="157" y="125" width="1109" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/57.27.1309.741@57.27.1309.741" timestamp="1592306040942" />
+    <state x="445" y="150" width="618" height="504" key="find.popup" timestamp="1592224271765">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="445" y="150" width="618" height="504" key="find.popup/57.27.1309.741@57.27.1309.741" timestamp="1592224271765" />
+    <state x="57" y="100" width="1299" height="592" key="new project wizard" timestamp="1592222655249">
+      <screen x="57" y="27" width="1309" height="741" />
+    </state>
+    <state x="57" y="100" width="1299" height="592" key="new project wizard/57.27.1309.741@57.27.1309.741" timestamp="1592222655249" />
+  </component>
+</project>
