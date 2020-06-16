@@ -6,6 +6,6 @@ import spray.json.{DefaultJsonProtocol, RootJsonFormat}
 
 trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
 
-  implicit val sessionFormat: RootJsonFormat[Response] = jsonFormat2(Response)
+  implicit val responseFormat: RootJsonFormat[Response] = jsonFormat2(Response)
 
 }

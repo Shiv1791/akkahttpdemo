@@ -1,27 +1,16 @@
 package com.knoldus.controller
 
-import akka.http.scaladsl.model.StatusCodes
-import akka.http.scaladsl.testkit.{RouteTestTimeout, ScalatestRouteTest}
-import akka.stream.ActorMaterializer
-import akka.util.Timeout
+import akka.http.scaladsl.testkit.ScalatestRouteTest
 import com.knoldus.json.JsonSupport
-import org.mockito.MockitoSugar
-import org.scalatest.wordspec.AnyWordSpecLike
+import org.scalatest.{Matchers, WordSpecLike}
 
-import scala.concurrent.duration._
+class GetRouteSpec extends WordSpecLike  with JsonSupport
+  with ScalatestRouteTest with Matchers with GetRoute {
 
-class GetRouteSpec extends GetRoute with AnyWordSpecLike with JsonSupport
-  with ScalatestRouteTest  with MockitoSugar {
-
-  override implicit val materializer: ActorMaterializer = ActorMaterializer()
-   implicit lazy val timeout: Timeout = Timeout(100.seconds)
-  "Answer routes" should {
-
-    implicit val defaultTimeout: RouteTestTimeout = RouteTestTimeout(5.seconds)
-
-    "return Error message in case of invalidRequest " in {
-      Get("/Hello") ~> getRoute ~> check {
-        assert(status === StatusCodes.Accepted)
+  "Get routes" should {
+    "return message in case of validRequest " in {
+      Get("/hello/shiv/hello") ~> getRoute ~> check {
+        responseAs[String] shouldEqual( {"""{"message":"hello","name":"shiv"}"""})
       }
     }
   }

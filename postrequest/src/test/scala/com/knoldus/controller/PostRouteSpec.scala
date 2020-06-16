@@ -1,29 +1,25 @@
 package com.knoldus.controller
 
-import akka.http.scaladsl.model.StatusCodes
-import akka.http.scaladsl.testkit.{RouteTestTimeout, ScalatestRouteTest}
-import akka.stream.ActorMaterializer
-import akka.util.Timeout
+import akka.http.scaladsl.marshalling.Marshal
+import akka.http.scaladsl.model.MessageEntity
+import akka.http.scaladsl.testkit.ScalatestRouteTest
 import com.knoldus.json.JsonSupport
-import org.mockito.MockitoSugar
-import org.scalatest.wordspec.AnyWordSpecLike
+import com.knoldus.model.PostResponse
+import org.scalatest.concurrent.ScalaFutures._
+import org.scalatest.{Matchers, WordSpecLike}
 
-import scala.concurrent.duration._
+class PostRouteSpec extends PostRoute with WordSpecLike with JsonSupport
+  with ScalatestRouteTest with Matchers {
 
-class PostRouteSpec extends PostRoute with AnyWordSpecLike with JsonSupport
-  with ScalatestRouteTest with MockitoSugar {
+  "Post routes" should {
 
+    val entity = Marshal(PostResponse(List(1, 2), "+")).to[MessageEntity].futureValue
 
-  override implicit val materializer: ActorMaterializer = ActorMaterializer()
-  override implicit lazy val timeout: Timeout = Timeout(100.seconds)
-  "Answer routes" should {
-
-    implicit val defaultTimeout: RouteTestTimeout = RouteTestTimeout(5.seconds)
-
-    "return Error message in case of invalidRequest " in {
-      Get("/postResponse") ~> postRoute ~> check {
-        assert(status === StatusCodes.Accepted)
+    "return message in case of validRequest " in {
+      Post("http://localhost:8081/postResponse").withEntity(entity) ~> postRoute ~> check {
+        responseAs[String] shouldEqual "3"
       }
     }
   }
+
 }

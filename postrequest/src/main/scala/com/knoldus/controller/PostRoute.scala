@@ -7,18 +7,18 @@ import akka.util.Timeout
 import com.knoldus.json.JsonSupport
 import com.knoldus.model.PostResponse
 import com.knoldus.service.CalculatorService
-import com.knoldus.util.Logging
+
 
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
-trait PostRoute extends JsonSupport with Logging {
+trait PostRoute extends JsonSupport {
   lazy val postRoute: Route =
     post {
       path("postResponse") {
       entity(as[PostResponse]) {
         postResponse => {
-          complete(StatusCodes.Accepted, CalculatorService.getDetails(postResponse))
+          complete(CalculatorService.getDetails(postResponse))
         }
       }
       }

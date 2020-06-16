@@ -2,6 +2,6 @@ package com.knoldus.util
 
 object Constants {
 
-  final val DEFAULT_PORT: Int = 9090
+  final val DEFAULT_PORT: Int = 8080
 
 }
